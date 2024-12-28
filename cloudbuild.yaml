@@ -12,12 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-
-steps:
-
 options:
   logging: CLOUD_LOGGING_ONLY
-  
+
+steps:
 - id: 'branch name'
   name: 'alpine'
   entrypoint: 'sh'  
